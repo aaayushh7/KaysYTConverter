@@ -70,7 +70,7 @@ function App() {
             <button type="submit" className="button-74">Convert</button>
           </form>
 
-          {urlResult ? <a target="_blank" rel="noreferrer" href={urlResult}><button className="button-48">Download mp3</button></a> : ''}
+          {urlResult ? <a target="_blank" rel="noreferrer" href={urlResult}><button className="button-30">Download mp3</button></a> : ''}
 
         </section>
 
