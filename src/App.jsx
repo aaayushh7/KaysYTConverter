@@ -63,7 +63,7 @@ function App() {
         <section className="content">
 
           <h1 className="content_title">Youtube to MP3 in a click</h1>
-          <p className="content_description">Hey Kay, now convert you YT's to mp3 for your edits</p>
+          <p className="content_description">Hey Kay, now it's easy for your edits</p>
 
           <form onSubmit={handleSubmit} className="form">
             <input ref={inputUrlRef} placeholder="Paste youtube URL here..." className="form_input" type="text" />
