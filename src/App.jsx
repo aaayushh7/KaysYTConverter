@@ -4,7 +4,7 @@ import { youtube_parser } from "./utils";
 
 
 function App() {
-  
+
   const inputUrlRef = useRef();
   const [urlResult, setUrlResult] = useState();
 
@@ -62,8 +62,8 @@ function App() {
 
         <section className="content">
 
-          <h1 className="content_title">Youtube to MP3 Converter</h1>
-          <p className="content_description">Convert Youtube videos to MP3 in a few seconds</p>
+          <h1 className="content_title">Youtube to MP3 in a click</h1>
+          <p className="content_description">Hey Kay, now convert you YT's to mp3 for your edits</p>
 
           <form onSubmit={handleSubmit} className="form">
             <input ref={inputUrlRef} placeholder="Paste youtube URL here..." className="form_input" type="text" />
